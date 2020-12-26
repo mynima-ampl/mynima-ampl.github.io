@@ -1,0 +1,62 @@
+h1,h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Helvetica';
+    text-justify: auto;
+}
+
+li, p, h3 {
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Helvetica';
+    text-justify: auto;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#main_head, #game, #about {
+    border: #000; 
+    border-top: 6px;
+    border-bottom: 6px;
+    background-color: #222;
+    margin: 4px;
+    padding: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: #222;
+    background-color: #222;
+    font-family: 'Helvetica';
+    margin-top: 3px;
+}
+
+.middle{
+  margin: auto;
+  width: 900px;
+  background-color:#000;
+}
+
+#game {
+    height: 600px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+/* For the Game */
+#myCanvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin: auto;
+    display: block;
+}
