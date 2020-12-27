@@ -1,4 +1,4 @@
-var myGamePiece;
+var myGamePiece; //my game piece
 var myScore;
 var mySupply;
 var myObstacles = [];
