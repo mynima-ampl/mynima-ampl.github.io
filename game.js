@@ -1,6 +1,6 @@
-var myGamePiece; //my game piece
-var myScore;
-var mySupply;
+var myGamePiece; // Game piece
+var myScore; // Score
+var mySupply; // Supply
 var myObstacles = [];
 var myLine0; // Price Range
 var myLine1; // Target Price
@@ -131,7 +131,7 @@ function updateGameArea() {
         myObstacles[i].x += -1;
         // When the rebase line hits the obstacle
         if (myObstacles[i].x == myGamePiece.x) {
-            supplyDelta = Math.abs((myGamePiece.y-148.5)*myGameArea.supply/148.5) / myGameArea.supply;
+            supplyDelta = (Math.abs((myGamePiece.y-148.5)*myGameArea.supply/148.5) / myGameArea.supply) * (1.012 / 150);
             if (myGamePiece.y > 165 && myGameArea.supply > 0) {
                 myGameArea.supply -= Math.floor((myGameArea.supply*supplyDelta));
                 myGameArea.myRebase = "-ive Rebase";
