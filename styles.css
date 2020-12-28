@@ -60,3 +60,13 @@ p {
     margin: auto;
     display: block;
 }
+
+/* Two image containers */
+.column {
+    flex: 50%;
+    padding: 3px;
+  }
+  
+.row::after {
+    display: flex;
+  }
