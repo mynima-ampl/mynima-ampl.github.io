@@ -17,7 +17,7 @@ p {
     padding-right: 30px;
 }
 
-#main_head, #game, #about {
+#main_head, #game, #about, #banners {
     border: #000; 
     border-top: 6px;
     border-bottom: 6px;
